@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-size: 2em;
+    margin: auto;
+}
+
+/**************** PC ******************/
+
+header{
+    width: 100%;
+    height: 150px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    display: flex;
+}
+
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    display: flex;
+}
+
+.contenedor{
+    width: 100%;
+    height: 500px;
+    background-color:tomato;
+    text-align: center;
+}
+
+.cuerpo{
+    width: 75%;
+    height: 100%;
+    background-color: red;
+    float: left;
+}
+
+.nav1{
+    width: 100%;
+    height: 25%;
+    background-color: cornflowerblue;
+    color: white;
+    clear: both;
+    display: flex;
+}
+
+.nav2{
+    width: 30%;
+    height: 75%;
+    background-color: pink;
+    float: left;
+    clear: both;
+    display: flex;
+}
+
+.cuerpo1{
+    width: 70%;
+    height: 75%;
+    background-color: yellow;
+    float: left;
+    display: flex;
+}
+
+.banner{
+    width: 25%;
+    height: 100%;
+    background-color: violet;
+    float: left;
+    display: flex;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+}
+
+/*********** TABLET ***************/
+
+@media(max-width: 1024px){
+    .cuerpo{
+        width: 100%;
+        height: 75%;
+        float: none;
+        clear: both;
+    }
+
+    .banner{
+        width: 100%;
+        height: 25%;
+        float: none;
+    }
+}
+
+/*********** MÓBIL *****************/
+
+@media(max-width: 480px){
+    .nav2{
+        width: 100%;
+        height: 25%;
+        float: none;
+        clear: both;
+    }
+    
+    .cuerpo1{
+        width: 100%;
+        height: 50%;
+        float: none;
+    }
+}

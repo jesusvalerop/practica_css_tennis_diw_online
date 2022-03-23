@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/webfonts/fontawesome/css/all.css">
+    <link rel="stylesheet" type="text/css" media="print" href="./assets/css/styleImpresora.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Contacto / DIW - Práctica 2</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="title" content="Contacto / DIW - Práctica 2">
+    <meta name="description" content="Está es la página de contacto donde hay un formulario de contacto y datos de contacto.">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <!-- Facebook -->
+    <meta property="og:url"           content="http://127.0.0.1:5500/www.web.com/index.html" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Nombre de la tienda" />
+    <meta property="og:description"   content="Tienda especializada en vender cosas varias" />
+    <meta property="og:image"         content="assets/images/logo.png" />
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:description" content="Tienda especializada en vender cosas varias">
+    <meta name="twitter:title" content="La nejor tienda de cosas varias">
+    <meta name="twitter:site" content="@DIW">
+    <meta name="twitter:image" content="assets/images/logo.png">
+    <meta name="twitter:creator" content="@jesusvp">
+    <!-- Iconos Android y Iphone-->
+    <link href="assets/images/movil/ios/Icon-App-20x20@2x.png" rel="apple-touch-icon" />
+    <link href="assets/images/movil/android/icon-hires.png" rel="icon" sizes="192x192" />
+    <link href="assets/images/movil/android/icon-normal.png" rel="icon" sizes="96x96" />
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="assets/images/logo.png" alt="Logo de la tienda"></a>
+        <h1 class="titulo">Tennis DIW Online</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="flex.html">Flex</a></li>
+        </ul> 
+    </nav>
+    <br>
+    <section class="bCompartir">
+        <!-- Botones para compartir-->
+        <!-- Facebook -->
+        <a href="http://www.facebook.com/sharer.php?u=https://www.tenisdiwonline.es" target="_blank" rel="noopener"><i class="fab fa-facebook fa-2x"></i></a>
+        <!-- Twitter -->
+        <a href="http://twitter.com/share?text=¡Me%20encanta%20Tenis%20DIW!&via=DIW" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>       
+        <!-- Linkedin -->
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=http://www.google.es" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+        <!-- Whatsapp-->
+        <a href="whatsapp://send?text=http://127.0.0.1:5500/www.web.com/index.html" data-action="share/whatsapp/share"><i class="fab fa-whatsapp fa-2x"></i></a>
+        <!-- Telegram -->
+        <a href="https://xn--r1a.link/share/url?url=https%3A%2F%2Fwww.google.es&text=%C2%A1Me%20encanta%20Tenis%20DIW%21" target="_blank"><i class="fab fa-telegram fa-2x"></i></a>
+    </section>
+    <!--<br>-->
+    <section class="container">
+        <section class="contacto">
+            <article>
+            <form>
+                <fieldset>
+                    <legend><h3>Formulario de contacto</h3></legend>
+        
+                    <label class="linea">Nombre* </label>
+                    <input class="inputf" name='nombre' type='text' placeholder="Introduce tu nombre" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ]{1,30}" required autofocus/><br><br>
+        
+                    <label class="linea">Email* </label>
+                    <input class="inputf" name='email' type='email' placeholder="Introduce tu email" required/><br><br>
+        
+                    <label class="linea">Edad* </label>
+                    <input class="inputf" name='edad' type='number' placeholder="Intruduce tu edad" min="18" max="99" required/><br><br>
+        
+                    <label class="linea">Teléfono* </label>
+                    <input class="inputf" name='telefono' type='tel' placeholder="Introduce tu teléfono" required/><br><br>
+        
+                    <label>Consulta* </label><br>
+                    <textarea name="textarea" rows="10" cols="50" placeholder="Escriba aquí su consulta..." required></textarea><br><br>
+        
+                    <input type='checkbox' name='privacidad' value='Si' required/>
+                    <label>¿Aceptas las politicas de privacidad y cookies?*</label><br><br>
+        
+                    <input class="boton" type="submit" value="Enviar"/>
+                </fieldset>
+            </form>
+        </article>
+        <article>
+            <fieldset>
+                <legend><h3>Datos de contacto</h3></legend>
+                <address>
+                    <p>¡Hola! Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Mauris id nunc vel libero dapibus sollicitudin eget sit amet justo. Aenean sit amet interdum turpis. Nulla pharetra ornare pharetra.
+                    </p>
+                    <p> <span>Dirección:</span><br> 
+                        Calle Falsa, 123, Ninguna Parte<br>
+                        1478 A saber donde<br>
+                        España
+                    </p>
+                    <p><span>Email:</span><a href="mailto:">correofalso@gmail.com</a></p>
+                    <p><span>Teléfono:</span>+34 987654321</p>
+                    <p><span>Horario de atención:</span>9:00 am - 9:05 am</p>
+                </address>
+            </fieldset>
+        </article>
+        </section>       
+        <aside>
+            <h3>Historial</h3>
+            <ul>
+                <li><a href="index.html" target="_blank">Enlace 1</a></li>
+                <li><a href="index.html" target="_blank">Enlace 2</a></li>
+                <li><a href="index.html" target="_blank">Enlace 3</a></li>
+
+            </ul>
+            <h3>Enlaces interesantes</h3>
+            <ul>
+                <li><a href="algo.pdf" target="_blank">Enlace interesante 1</a></li>
+                <li><a href="algo.pdf" target="_blank">Enlace interesante 2</a></li>
+                <li><a href="index.html" target="_blank">Enlace interesante 3</a></li>
+                <li><a href="index.html" target="_blank">Enlace interesante 4</a></li>
+            </ul>
+        </aside>
+    </section>
+    <br>
+    <section class="final"></section><br>
+    <footer>
+        <p class="copyright">&copy; 2021 - Tennis DIW Online</p>
+        <section class="centrar">
+            <a href="https://www.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp fa-3x"></i></a>            
+            <a href="whatsapp://send?text=http://127.0.0.1:5500/www.web.com/index.html" class="inf-der" data-action="share/whatsapp/share"><img src="assets/images/whatsapp.png" alt="Icono de whatsapp"></a>
+            <a href="https://web.telegram.org/" target="_blank"><i class="fab fa-telegram fa-3x"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-3x"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
+            <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube fa-3x"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+        </section>
+        <br>
+        <section class="centrar">
+            <h3>Ubicación de la empresa</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d188134.70198214517!2d1.4576102371076005!3d42.542450807648656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a5f52e989ef095%3A0x7c93ed778ea7f92!2sAndorra!5e0!3m2!1ses!2ses!4v1633830431460!5m2!1ses!2ses" style="border:0;" allowfullscreen="" loading="lazy"></iframe><br><br>
+            <p class="privacidad"><a href="https://www.google.com/" target="_blank">Política de privacidad y cookies</a></p>
+            <br>
+            <a class="w3" href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+                <img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="¡CSS Válido!" />
+            </a>
+            <a class="w3" href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+                <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="¡CSS Válido!" />
+            </a>
+            <a class="w3" href="https://validator.w3.org/" target="_blank">
+                <img src="assets/images/w3c.png" alt="¡HMTL5 Válido"/>
+            </a>
+        </section>
+        <br><br>
+    </footer>
+</body>
+</html>

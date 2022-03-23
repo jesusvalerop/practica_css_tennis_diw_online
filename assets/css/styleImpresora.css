@@ -1,0 +1,12 @@
+header, footer, nav, aside, .bCompartir{
+    display: none;
+}
+
+.container{
+    height: auto;
+}
+
+.container section{
+    float: none;
+    width: 95%;
+}
